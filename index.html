@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Elli Gnamm</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+<!--------------------------------SECTION HEADER----------------------------------------->
+
+<img src="images/tenorfrog.gif" alt="phrog" style="width:10%">
+
+<!--------------------------------------------------------------------------------------->
+<div class="about-section">
+  <h1>You have chosen the thug frog life</h1>
+</div>
+
+
+<!---------------------------------------Navigation Übung von Jörg---------------------------------->
+<nav>
+  <a href="#home">Welcome</a>
+  <a href="#memberarea">Members Only.</a>
+  <a href="#projekte">Our Philosophy</a>
+  <a href="#kontakt">Us</a>
+  <a href="#merch">Get Merch</a>
+</nav>
+
+<main>
+ <!----------------------HOME------------------------------------------------------------------------------>
+  <section id="home">
+      <span class="img-container"> <!-- Inline parent element -->
+        <img src="images/Peepoo.jpg" alt="welcomingpepe">
+      </span>
+  </section>
+<!----------------------------------------------------------------------------------------------------->
+  <section id="memberarea">
+    <h2>U already member of our cult?</h2>
+
+    <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+    
+    <div id="id01" class="modal">
+      
+      <form class="modal-content animate" action="/action_page.php" method="post">
+        <div class="imgcontainerlog">
+          <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+          <img src="images/awwwwwwyaaaaaas.jpg" alt="Avatar" class="avatar">
+        </div>
+    
+        <div class="containerlog">
+          <label for="uname"><b>Username</b></label>
+          <input type="text" placeholder="Enter Username" name="uname" required>
+    
+          <label for="psw"><b>Password</b></label>
+          <input type="password" placeholder="Enter Password" name="psw" required>
+            
+          <button type="submit">Login</button>
+          <label>
+            <input type="checkbox" checked="checked" name="remember"> Remember me
+          </label>
+        </div>
+    
+        <div class="containerlog" style="background-color:#f1f1f1">
+          <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+          <span class="psw">Forgot <a href="#">password?</a></span>
+        </div>
+      </form>
+    </div>
+    
+    <script>
+    // Get the modal
+    var modal = document.getElementById('id01');
+    
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+    </script>
+    
+  </section>
+ <!--------------------------------LITTLE PROJECTS-----------------------------------------------------------> 
+  <section id="projekte">
+      <h2>Tanz so sch0n wie eine Mulltute im Herbstwind, oder wie der kleine Jens</h2>
+  <div class="container-xs">
+    <div class="image">
+      <img src="images/frogo.gif" alt="phrograndoom" style="width:100%">
+    </div>
+    <div class="text">
+      <h3>Du bist ein Witz, vielleicht versuchst du es mal im Comedy-Bereich?</h3>
+      <arctilce>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus harum perspiciatis explicabo laborum voluptatum consectetur blanditiis adipisci iste voluptatibus beatae optio magnam, voluptas similique pariatur inventore suscipit! Nam expedita dolorem repellat culpa exercitationem soluta harum cupiditate adipisci optio perferendis, ut quo magni ex facilis quaerat, delectus dicta laudantium maxime at aspernatur sapiente nobis, dolores cumque, iste est at. Rem, nemo iusto nisi placeat, ipsam.</p>
+      </article>
+    </div>
+  </div>
+  <div class="container-xs">
+    <div class="image">
+      <img src="images/gigafrog.gif" alt="gigafroggo" style="width:100%">
+    </div>
+    <div class="text">
+      <h3>Nein mein Brudi, anhalten geht nicht.</h3>
+      <arctilce>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus harum perspiciatis explicabo laborum voluptatum consectetur blanditiis adipisci iste voluptatibus beatae optio magnam, voluptas similique pariatur inventore suscipit! Nam expedita dolorem repellat culpa exercitationem soluta harum cupiditate adipisci optio perferendis, ut quo magni ex facilis quaerat, delectus dicta laudantium maxime at aspernatur sapiente nobis, dolores cumque, iste est at. Rem, nemo iusto nisi placeat, ipsam.</p>
+      </article>
+    </div>
+  </div>
+  <div class="container-xs">
+    <div class="image">
+      <img src="images/dodalittledance.gif" alt="jumpfrog" style="width:100%">
+    </div>
+    <div class="text">
+      <h3>Mich zieht die Neugier nach vorne, es ist schon fast wie magnetisch.</h3>
+      <arctilce>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus harum perspiciatis explicabo laborum voluptatum consectetur blanditiis adipisci iste voluptatibus beatae optio magnam, voluptas similique pariatur inventore suscipit! Nam expedita dolorem repellat culpa exercitationem soluta harum cupiditate adipisci optio perferendis, ut quo magni ex facilis quaerat, delectus dicta laudantium maxime at aspernatur sapiente nobis, dolores cumque, iste est at. Rem, nemo iusto nisi placeat, ipsam.</p>
+      </article>
+    </div>
+  </div>
+  <div class="container-xs">
+    <div class="image">
+      <img src="images/patientfroggo.gif" alt="rainfroggo" style="width:100%">
+    </div>
+    <div class="text">
+      <h3>Nani, was war das denn gerade?</h3>
+      <arctilce>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus harum perspiciatis explicabo laborum voluptatum consectetur blanditiis adipisci iste voluptatibus beatae optio magnam, voluptas similique pariatur inventore suscipit! Nam expedita dolorem repellat culpa exercitationem soluta harum cupiditate adipisci optio perferendis, ut quo magni ex facilis quaerat, delectus dicta laudantium maxime at aspernatur sapiente nobis, dolores cumque, iste est at. Rem, nemo iusto nisi placeat, ipsam.</p>
+      </article>
+    </div>
+  </div>
+</section>
+<!------------------------------------------ABOUT US / CONTACT------------------------------------------->
+  <section id="kontakt">
+      <h2>Talk to us, is for free and the only thing that is free here</h2>
+   
+      <div class="row">
+        <div class="column">
+          <div class="card">
+            <img src="images/image4.jpg" alt="Capitan" style="width:100%">
+            <div class="container">
+              <h2>Ahh, me Elli</h2>
+              <p class="title">CEO of all phrogs</p>
+              <p>Cactus ergo sum.</p>
+              <p>myfootinyourgrass@caddy.com</p>
+              <p><button class="button">Contact</button></p>
+            </div>
+          </div>
+        </div>
+      
+        <div class="column">
+          <div class="card">
+            <img src="images/image8.jpg" alt="Johnson" style="width:100%">
+            <div class="container">
+              <h2>Dopest Doe</h2>
+              <p class="title">Art Director</p>
+              <p>Blinded some people with their art.</p>
+              <p>dopestdoe@giggity.com</p>
+              <p><button class="button">Contact</button></p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="column">
+          <div class="card">
+            <img src="images/ohdamnboi.jpg" alt="Sheesh" style="width:100%">
+            <div class="container">
+              <h2>Mister Molester</h2>
+              <p class="title">Irgendwie ein Praktikant</p>
+              <p>Sweet, sugar, candy, man. Trust me</p>
+              <p>touchmybellybutton@rottenapple.com</p>
+              <p><button class="button">Contact</button></p>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+
+</main>
+<!---------------------------------------------------------------------------------------------------->
+<section id="merch">
+  <h2>Treat yourself</h2>
+  <h4>(dont klick on images, or you will fall into the void. use the merch-link instead)</h4>
+  <span class="img-container"> <!-- Inline parent element -->
+    <img src="images/ellisshop.jpg" alt="Onlineshop">
+    <a href="https://www.redbubble.com/shop/frog" target="_blank" rel="noopener">Buy my merch.</a>
+    <footer>
+        <p>Author: Elli Gnamm</p>
+        <p><a href="mailto:me@example.com">elli@email.com</a></p>
+        <p>015735489283</p>
+        <img src="images/beansbang.gif" alt="bean" style="width:30%">
+    </footer>
+  </span>
+</section>
+
+</body>
+</html>
